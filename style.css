@@ -1,0 +1,110 @@
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------- 
+navigation part
+------------- */
+
+.header-bg{
+ background-color: rgb(51, 51, 224);
+}
+.container{
+    margin: 0 auto;
+    width: 1160px;
+}
+nav{
+    padding: 10px;
+}
+nav a{
+ text-decoration: none;
+ margin-right: 36px;
+ color: #FFFFFF;
+ font-size: 16px;
+ 
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    background-color: #E02C6D;
+    padding: 7px 20px;
+    margin-top: 10px;
+}
+
+
+
+/*-----------------------
+ Banner Part Css
+ ------------------------ */
+.half-width{
+    width: 50%;
+  }
+
+.banner{
+    display: flex;
+}
+
+.copa-text{
+    padding-top: 110px;
+    margin-bottom: 100px;
+} 
+
+.copa-text h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFFFFF;
+   
+}
+.watchBtn{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color:#FFFFFF;
+    font-size: 16px;
+}
+
+
+span{
+    color: #FFFFFF;
+   
+}
+ .fas {
+  color: #FFFFFF;
+  margin-left: 10px;
+ 
+}
+
+
+.player img{
+
+    width: 556.01px;
+    height: 438px;
+    padding-top: 50px;
+    padding-bottom: 85px;
+}
+
+
+.banner:hover .kick-football{
+    transition: transform 0.7s ; 
+    transform: translateX(-100px);  
+}
+
+.kick-football{
+    transition: transform 0.7s ; 
+    transform: translateX(100px);  
+}
+
+
+
