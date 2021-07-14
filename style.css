@@ -106,10 +106,9 @@ span{
     transform: translateX(100px);  
 }
 
-/* 
-.players-bg{
- background-color: #f3e8e8;
-} */
+
+
+/* Grid Card-View Css  start */
 
 .players-wraper{
     margin: 0 auto;
@@ -155,6 +154,60 @@ h3{
     grid-template-columns: repeat(3 , 1fr);
     grid-row-gap: 40px;
 }
+/* Grid Card-View Css  End */
+
+/* About Copa America Css start */
+.messi-boss{
+    width: 567px;
+    height: 427px;
+}
+
+.about-copaAmerica{
+    display: flex;
+    margin-top: 160px;
+}
+.latest-info{
+    padding-top: 100px;
+    padding-right: 55px;
+
+}
+
+.latest-info h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+}
+.latest-info p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+/* About Copa America Css End */
+.footer-element{
+    margin-top: 100px;
+}
+
+.social-media , .copy-right, .footer-img{
+    display: flex;
+ justify-content: center;
+}
+
+.footer-img img{
+width: 250px;
+height: 70px;
+}
+
+.social-media a{
+    background-color: #c5c5c5;
+    margin-right: 20px;
+}
+
+
+
+
 
 
 
